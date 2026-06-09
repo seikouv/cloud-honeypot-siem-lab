@@ -36,4 +36,4 @@ The log parsing engine automatically reads the unstructured text logs, running s
 
 1. Clone this repository inside a secure sandbox or cloud environment:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/cloud-honeypot-siem-lab.git](https://github.com/YOUR_USERNAME/cloud-honeypot-siem-lab.git)
+   git clone https://github.com/seikouv/cloud-honeypot-siem-lab.git
