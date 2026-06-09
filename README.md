@@ -21,7 +21,17 @@ An end-to-end cybersecurity lab built to simulate, capture, and analyze maliciou
 * Renders real-time security data tables highlighting total alerts tripped, primary attack vectors, and specific attacker tools.
 
 ---
+## 📸 Lab Evidence & Visuals
+This screenshot shows the custom Python honeypot live, initialized, and actively listening for incoming threat traffic on Port 8080.
+![Honeypot Live Listener](honeypot_live.png)
 
+### 2. Live Attack Intrusion Captured
+Here, the decoy server successfully intercepts a simulated exploit attempt (`/admin-login-exploit`) via a curl network scan, logging the attacker's metadata.
+![Attack Captured](attack_captured.png)
+
+### 3. Mini-SIEM Analytics Dashboard
+The log parsing engine automatically reads the unstructured text logs, running statistical aggregation to present actionable threat intelligence metrics.
+![SIEM Dashboard Metrics](siem_output.png)
 ## How to Run the Lab
 
 1. Clone this repository inside a secure sandbox or cloud environment:
